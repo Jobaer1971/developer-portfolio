@@ -5,6 +5,11 @@ body {
 
 h1 {
     font-size: 60px;
+
+}
+
+h2 {
+    font-size: 40px;
 }
 
 .orange-color {
@@ -12,7 +17,7 @@ h1 {
     color: orange;
 }
 
-section {
+.flexible-corner {
 
     display: flex;
     margin-bottom: 200px;
@@ -52,4 +57,36 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.about-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.miha {
+    width: 50%;
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10PX;
+}
+
+#mihar-hamba {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+#mihar-minu {
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+
+}
+
+footer p {
+    text-align: center;
 }
